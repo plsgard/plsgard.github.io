@@ -359,44 +359,51 @@
             /* submit via ajax */
             submitHandler: function(form) {
     
-                var sLoader = $('.submit-loader');
+            var sLoader = $('.submit-loader');
+            var body = $("#contactMessage").val();
+            var subject = $("#contactSubject").val();
+            var email = $("#contactEmail").val();
+            var name = $("#contactName").val();
+
+            var mailLink = "mailto:hello@plsgd.com?subject=[Plsgd] "+subject+"&body=Nom : "+name+" - Email : "+email+"%0d%0a%0d%0a"+body;
+            //window.location.href = mailLink;
+            window.open(mailLink, "_blank");
+                // $.ajax({
     
-                $.ajax({
+                //     type: "POST",
+                //     url: "inc/sendEmail.php",
+                //     data: $(form).serialize(),
+                //     beforeSend: function() { 
     
-                    type: "POST",
-                    url: "inc/sendEmail.php",
-                    data: $(form).serialize(),
-                    beforeSend: function() { 
+                //         sLoader.slideDown("slow");
     
-                        sLoader.slideDown("slow");
+                //     },
+                //     success: function(msg) {
     
-                    },
-                    success: function(msg) {
+                //         // Message was sent
+                //         if (msg == 'OK') {
+                //             sLoader.slideUp("slow"); 
+                //             $('.message-warning').fadeOut();
+                //             $('#contactForm').fadeOut();
+                //             $('.message-success').fadeIn();
+                //         }
+                //         // There was an error
+                //         else {
+                //             sLoader.slideUp("slow"); 
+                //             $('.message-warning').html(msg);
+                //             $('.message-warning').slideDown("slow");
+                //         }
     
-                        // Message was sent
-                        if (msg == 'OK') {
-                            sLoader.slideUp("slow"); 
-                            $('.message-warning').fadeOut();
-                            $('#contactForm').fadeOut();
-                            $('.message-success').fadeIn();
-                        }
-                        // There was an error
-                        else {
-                            sLoader.slideUp("slow"); 
-                            $('.message-warning').html(msg);
-                            $('.message-warning').slideDown("slow");
-                        }
+                //     },
+                //     error: function() {
     
-                    },
-                    error: function() {
+                //         sLoader.slideUp("slow"); 
+                //         $('.message-warning').html("Une erreur est survenue. Veuillez réessayer.");
+                //         $('.message-warning').slideDown("slow");
     
-                        sLoader.slideUp("slow"); 
-                        $('.message-warning').html("Something went wrong. Please try again.");
-                        $('.message-warning').slideDown("slow");
+                //     }
     
-                    }
-    
-                });
+                // });
             }
     
         });

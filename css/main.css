@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 a:hover, a:active {
@@ -327,7 +327,7 @@ hr {
 }
 
 .text-colored{
-    color:#de4d0f;
+    color:#f14d09;
 }
 
 
@@ -371,7 +371,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #de4d0f;
+    background: #f14d09;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -380,7 +380,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 dd {
@@ -506,7 +506,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #de4d0f;
+    background: #f14d09;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -549,7 +549,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #de4d0f;
+    background-color: #f14d09;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -776,7 +776,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #de4d0f;
+    -webkit-text-fill-color: #f14d09;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -836,8 +836,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #de4d0f;
-    border-color: #de4d0f;
+    background: #f14d09;
+    border-color: #f14d09;
     color: #FFFFFF;
 }
 
@@ -854,8 +854,8 @@ input[type="button"].btn--primary:focus {
     /* background: #33a242;
     border-color: #33a242; */
     background: #FFFFFF;
-    border-color: #de4d0f;
-    color:#de4d0f;
+    border-color: #f14d09;
+    color:#f14d09;
 }
 
 
@@ -879,8 +879,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #de4d0f;
-    color: #de4d0f;
+    border: 0.2rem solid #f14d09;
+    color: #f14d09;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1108,7 +1108,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 .stats-tabs li a em {
@@ -1253,7 +1253,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #de4d0f;
+    color: #f14d09;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1427,7 +1427,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #de4d0f;
+    background: #f14d09;
 }
 
 
@@ -1483,7 +1483,7 @@ color:white;
 }
 
 .header-logo .logo .point{
-    color:#de4d0f;
+    color:#f14d09;
 }
 
 
@@ -1533,7 +1533,7 @@ color:white;
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 .header-nav p {
@@ -1671,7 +1671,7 @@ color:white;
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #de4d0f;
+    color: #f14d09;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1879,8 +1879,8 @@ color:white;
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #de4d0f;
-    border-right: 2px solid #de4d0f;
+    border-bottom: 2px solid #f14d09;
+    border-right: 2px solid #f14d09;
     content: '';
     display: block;
     height: 8px;
@@ -1904,7 +1904,7 @@ color:white;
     display: block;
     width: 2px;
     height: 12.2rem;
-    background-color: #de4d0f;
+    background-color: #f14d09;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1964,7 +1964,7 @@ color:white;
 }
 
 .home-social span {
-    color: #de4d0f;
+    color: #f14d09;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2220,7 +2220,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #de4d0f;
+    background-color: #f14d09;
     color: #010507;
     position: relative;
 }
@@ -2437,7 +2437,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #de4d0f;
+    color: #f14d09;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -3006,7 +3006,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #de4d0f;
+    background: #f14d09;
 }
 
 .s-contact .form-field label::after {
@@ -3017,14 +3017,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #de4d0f;
+    border-right: 5px solid #f14d09;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #de4d0f;
+    background-color: #f14d09;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3051,7 +3051,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 .contact-content input[type="email"],
@@ -3078,7 +3078,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #de4d0f;
+    border-bottom: 1px solid #f14d09;
 }
 
 .contact-content button,
@@ -3169,7 +3169,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 .contact-social li:last-child {
@@ -3192,7 +3192,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 .message-warning i, .message-success i {
@@ -3384,7 +3384,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 footer .row {
@@ -3430,7 +3430,7 @@ footer .row {
     text-shadow: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    color: #de4d0f;
+    color: #f14d09;
 }
 
 .footer-logo span.logo {
@@ -3489,8 +3489,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #de4d0f;
-    border-color: #de4d0f;
+    background: #f14d09;
+    border-color: #f14d09;
     padding: 0 20px;
 }
 
