@@ -167,7 +167,8 @@
 
                     stats.each(function () {
                         var $this = $(this);
-                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                        var toUp = !($this.data("count-direction") == "down");
+                        $({ Counter: toUp ? 0 : $this.text() }).animate({ Counter: toUp ? $this.text() : 0 }, {
                             duration: 3500,
                             easing: 'swing',
                             step: function (curValue) {
@@ -217,7 +218,7 @@
             arrows: false,
             dots: true,
             infinite: true,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             //autoplay: true,
             pauseOnFocus: false,

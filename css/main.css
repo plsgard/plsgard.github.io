@@ -2671,6 +2671,12 @@ html.no-csstransitions .home-content__main {
     transform: translate3d(0, -100%, 0);
 }
 
+.item-folio__project-link.logo {
+    height: 12.2rem;
+    width: 12.2rem;
+    padding:10px;
+    }
+
 .item-folio__project-link i {
     font-size: 1.8rem;
     line-height: 4.2rem;
@@ -2689,7 +2695,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
-.item-folio__project-link:active {
+.item-folio__project-link:active, .item-folio__project-link.logo {
     background-color: #FFFFFF;
     color: #000000;
 }
