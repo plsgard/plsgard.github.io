@@ -7,9 +7,7 @@
   "use strict";
 
   var cfg = {
-      scrollDuration: 800, // smoothscroll duration
-      mailChimpURL:
-        "https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc" // mailchimp url
+      scrollDuration: 800 // smoothscroll duration
     },
     $WIN = $(window);
 
@@ -232,33 +230,6 @@
         }
       ]
     });
-
-    // $('.testimonials').slick({
-    //     arrows: true,
-    //     dots: false,
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     adaptiveHeight: true,
-    //     pauseOnFocus: false,
-    //     autoplaySpeed: 1500,
-    //     responsive: [
-    //         {
-    //             breakpoint: 900,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 800,
-    //             settings: {
-    //                 arrows: false,
-    //                 dots: true
-    //             }
-    //         }
-    //     ]
-    // });
   };
 
   /* Smooth Scrolling
@@ -444,36 +415,6 @@
     });
   };
 
-  /* AjaxChimp
-     * ------------------------------------------------------ */
-  var clAjaxChimp = function() {
-    $("#mc-form").ajaxChimp({
-      language: "es",
-      url: cfg.mailChimpURL
-    });
-
-    // Mailchimp translation
-    //
-    //  Defaults:
-    //	 'submit': 'Submitting...',
-    //  0: 'We have sent you a confirmation email',
-    //  1: 'Please enter a value',
-    //  2: 'An email address must contain a single @',
-    //  3: 'The domain portion of the email address is invalid (the portion after the @: )',
-    //  4: 'The username portion of the email address is invalid (the portion before the @: )',
-    //  5: 'This email address looks fake or invalid. Please enter a real email address'
-
-    $.ajaxChimp.translations.es = {
-      submit: "Submitting...",
-      0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
-      1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
-      2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-      3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-      4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-      5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
-    };
-  };
-
   /* Back to Top
      * ------------------------------------------------------ */
   var clBackToTop = function() {
@@ -508,7 +449,6 @@
     clAlertBoxes();
     clContactForm();
     clAOS();
-    clAjaxChimp();
     clBackToTop();
   })();
 })(jQuery);
