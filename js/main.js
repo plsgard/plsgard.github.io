@@ -16,6 +16,9 @@
   var doc = document.documentElement;
   doc.setAttribute("data-useragent", navigator.userAgent);
 
+  var footerCopyright = document.getElementById('copyright-date');
+  footerCopyright.innerHTML = "<a href='https://diple.io' target='_blank'>Diple</a> © " + new Date().getFullYear();
+
   /* Preloader
      * -------------------------------------------------- */
   var clPreloader = function() {
