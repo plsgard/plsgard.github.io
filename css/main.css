@@ -2729,9 +2729,9 @@ html.no-csstransitions .home-content__main {
   display: none;
 }
 
-.item-folio__details{
+.item-folio__details {
   text-align: justify;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .item-folio__project-link {
@@ -2842,7 +2842,7 @@ html.no-csstransitions .home-content__main {
   .item-folio__cat {
     font-size: 1.4rem;
   }
-  .item-folio__details{
+  .item-folio__details {
     color: rgba(255, 255, 255, 0.8);
   }
 }
@@ -3215,13 +3215,13 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-  width: 35%;
+  width: 100%;
 }
 
 .contact-secondary::before {
   content: "";
   display: block;
-  width: 35%;
+  width: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
